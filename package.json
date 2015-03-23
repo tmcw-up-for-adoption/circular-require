@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "JSONStream": "^0.10.0",
-    "module-deps": "^3.7.3",
-    "traverse": "^0.6.6"
+    "graphlib": "^1.0.1",
+    "module-deps": "^3.7.3"
   }
 }
