@@ -1,0 +1,24 @@
+{
+  "name": "circular-require",
+  "version": "1.0.0",
+  "description": "detect circular require statements",
+  "main": "index.js",
+  "bin": {
+    "circular-require": "./index.js"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "circular",
+    "require",
+    "nodejs"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^0.10.0",
+    "module-deps": "^3.7.3",
+    "traverse": "^0.6.6"
+  }
+}
