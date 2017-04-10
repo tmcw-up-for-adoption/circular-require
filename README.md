@@ -1,5 +1,7 @@
 # circular-require
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/circular-require.svg)](https://greenkeeper.io/)
+
 Detect circular require statements in a codebase.
 
 ## Install
