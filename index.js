@@ -38,6 +38,8 @@ md.on('end', function() {
     cycles.forEach(function(cycle) {
         console.log(cycle);
     });
+    if (cycles.length)
+        process.exit(1);
 });
 
 md.end({ file: process.argv[2] });
