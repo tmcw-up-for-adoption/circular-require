@@ -1,5 +1,12 @@
 # circular-require
 
+**UNMAINTAINED**: This module is no longer maintained, and installing it will
+trigger a warning from npm. ES6 modules have no constraints around circular
+imports, and are the recommended style of JavaScript in the future. This module
+also has limitations on the ES6 features it can support, due to its dependencies
+being vintage. If you'd like to adopt it, please do! File an issue and I'll
+happily transfer ownership to you.
+
 Detect circular require statements in a codebase.
 
 ## Install
